@@ -1,0 +1,15 @@
+services:
+    david63.disclaimer.listener:
+        class: david63\disclaimer\event\listener
+        arguments:
+            - '@config'
+            - '@template'
+            - '@language'
+            - '@david63.disclaimer.core.functions'
+        tags:
+            - { name: event.listener }
+
+    david63.disclaimer.core.functions:
+        class: david63\disclaimer\core\functions
+        arguments:
+            - '@ext.manager'
