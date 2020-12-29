@@ -13,3 +13,6 @@ services:
         class: david63\disclaimer\core\functions
         arguments:
             - '@ext.manager'
+
+    _defaults:
+        public: true

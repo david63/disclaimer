@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -39,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'DISCLAIMER'				=> 'Disclaimer',
 	'DISCLAIMER_TEXT'			=> '<h3>Board Disclaimer</h3>
-	<p>The views and comments posted in these fora are personal and do not necessarily represent the those of the Management of %1$s.<br><br>The Management of %1$s does not, under any circumstances whatsoever, accept any responsibility for any advice, or recommendations, made by, or implied by, any member or guest visitor of %1$s that results in any loss whatsoever in any manner to a member of %1$s, or to any other person.<br><br>Furthermore, the Management of %1$s is not, and cannot be, responsible for the content of any other Internet site(s) that have been linked to from %1$s.</p>',
+	<p>The views and comments posted in these fora are personal and do not necessarily represent those of the Management of %1$s.<br><br>The Management of the %1$s does not, under any circumstances whatsoever, accept any responsibility for any advice, or recommendations, made by, or implied by, any member or guest visitor of %1$s that results in any loss whatsoever in any manner to a member of %1$s, or to any other person.<br><br>Furthermore, the Management of %1$s is not, and cannot be, responsible for the content of any other Internet site(s) that have been linked to from %1$s.</p>',
 ));
